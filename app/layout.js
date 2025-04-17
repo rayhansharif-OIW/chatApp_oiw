@@ -2,10 +2,10 @@
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { Toaster } from "@/components/ui/sonner";
 import { cn } from "@/lib/utils";
-// import Header from "@/src/components/Header";
+
 import Header from "@/components/Header";
 import { Inter } from "next/font/google";
-import "../styles/globals.scss";
+import "./globals.css";
 
 
 const inter = Inter({ subsets: ["latin"] });
